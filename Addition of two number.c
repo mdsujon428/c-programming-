@@ -8,7 +8,7 @@ int main()
 
  t=a+b;
 
-print("%d+%d=%d",a,b,t);
+printf(w"%d+%d=%d",a,b,t);
 
 return 0;
 } 
