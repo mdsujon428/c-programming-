@@ -1,4 +1,6 @@
+
 //Addition of two number
+// Subtraction added
 #include<stdio.h>
 
 int main()
@@ -6,9 +8,13 @@ int main()
 {
  int a=6,b=7,t;
 
- t=a+b;
+ t=a+b;  //Addition 
 
-printf(w"%d+%d=%d",a,b,t);
+ t=b-a;  // Subtraction
+
+printf("%d+%d=%d",a,b,t);
+
+printf("%b-%a=%d",b,a,t);
 
 return 0;
 } 
