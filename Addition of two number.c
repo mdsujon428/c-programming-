@@ -1,5 +1,5 @@
 //Addition of two number
-#include<studio.h>
+#include<stdio.h>
 
 int main()
 
