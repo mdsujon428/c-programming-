@@ -42,7 +42,7 @@ if(top>=0)
 {
 for(i=top;i>=0;i--)
 {
-printf("\n\n STACK Element is:%d",stack[top]);
+printf("\n\n STACK Element is:%d",stack[i]);
 }
 
 }
