@@ -16,6 +16,9 @@ else
 
 { printf("\n\n Enter a Value to be pushed:");
  scanf("%d",&x);
+
+ top++;
+
  stack[top]=x;
 }
 }
@@ -54,6 +57,7 @@ int main()
 printf("\n Enter the size of STACK[100]:");
 
 scanf("%d",&n);
+
 printf("\n\n\n 1.Push\n 2.Pop \n 3.Display\n");
 
 
