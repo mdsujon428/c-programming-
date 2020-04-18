@@ -32,7 +32,7 @@ if(top>=0)
   top=top-1;
 }
 else{
- print("\n\n STACK is Emty");
+ printf("\n\n STACK is Emty");
 }
 }
 void display(void)
@@ -97,6 +97,6 @@ printf("\n EXIT OPERATION \n");
 
 }
 }
-while(choice!=4)
+while(choice!=4);
 return 0;
-}
+};
